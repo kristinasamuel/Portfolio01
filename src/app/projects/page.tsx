@@ -7,7 +7,7 @@ import React from "react";
 import Image from "next/image";
 // create function Project export default
 export default function Project() {
-  // jsx return 
+  // jxs return 
   return (
    <>
 {/*  give style ,margin and flex  also  align items in center */}

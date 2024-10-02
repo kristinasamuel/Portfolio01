@@ -1,3 +1,4 @@
+"usse client"
 // create a contact page
 // import Label ,Input ,Button from shadcn library 
 import { Label } from "@/components/ui/label";
@@ -7,7 +8,7 @@ import { Button } from "@/components/ui/button";
 import { FaAddressCard, FaEnvelope, FaPhone} from "react-icons/fa6";
 // export default ContactPage 
 function ContactPage() {
-  // jsx return 
+  // jxs return 
   return (
 // align item center ,give margin and padding page
     <div className="flex flex-col items-center justify-center mt-5 min-h-screen">

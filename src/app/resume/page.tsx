@@ -1,5 +1,5 @@
+"use client"
 // createing My Resume
-
 import React from 'react'
 // import fragment from react
 import {Fragment} from 'react'
@@ -55,9 +55,6 @@ function Resume() {
         </ul>
       </section>
     </div>
-  
-
-    
     </>
   )
 }

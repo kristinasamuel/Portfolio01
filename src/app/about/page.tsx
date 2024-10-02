@@ -1,3 +1,4 @@
+"use client"
 /* create about page */
 /* Import icons from react Icon library */
 import { RiNextjsFill, RiTailwindCssFill } from "react-icons/ri";
