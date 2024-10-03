@@ -13,7 +13,7 @@ export default function About() {
       {/* Main heading of the page h1 also give style ,color,and font  */}
       <h1 className="text-4xl font-bold text-center justify-center uppercase">
         About
-      </h1>
+      </h1> 
       <div className="flex flex-col items-center justify-center max-w-4xl mx-auto p-4 mt-10
               bg-white rounded-lg ">
         <div className="flex flex-col  items-center">
