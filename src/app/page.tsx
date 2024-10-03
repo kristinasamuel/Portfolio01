@@ -1,5 +1,4 @@
 "use client"
-import { Fragment } from "react";
 import HeroSection from "./heroSection/page";
 import Project from "./projects/page";
 import ContactPage from "./contact/page";
