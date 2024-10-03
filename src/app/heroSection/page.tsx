@@ -8,6 +8,7 @@ import Typewriter from "typewriter-effect";
 //  import icons from react icon library
 import { FaEnvelope, FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa6";
+import { Link } from "lucide-react";
 //  creating a export default function
 export default function HeroSection() {
   return (
@@ -71,19 +72,19 @@ export default function HeroSection() {
         {/* Creating Links just click on it and move to new page */}
         <div className="mt-6 flex">
           {/* My Resume Page  */}
-          <a
+          <Link
             href="/resume"
             className="p-2  uppercase font-bold  bg-teal-700 hover:bg-teal-400  text-black rounded-xl"
           >
             resume
-          </a>
+          </Link>
           {/* Contact Me page */}
-          <a
+          <Link
             href="/contact"
             className=" p-2 uppercase font-bold  bg-teal-700 hover:bg-teal-400 mx-2 text-black rounded-xl"
           >
             Contact
-          </a>
+          </Link>
           </div>
       </div>
     </div>

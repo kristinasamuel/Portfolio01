@@ -1,13 +1,10 @@
 "use client"
 // createing My Resume
-import React from 'react'
-// import fragment from react
-import {Fragment} from 'react'
 //  export default function Resume
 function Resume() {
-  // jxs return 
+  // jsx return 
     return (
-    <>
+    
     <div className="min-h-screen flex flex-col items-center p-10">
       {/* Profile Section, give style color font and margi*/}
       <section className="bg-white p-8 rounded-lg shadow-lg w-full max-w-2xl">
@@ -55,7 +52,7 @@ function Resume() {
         </ul>
       </section>
     </div>
-    </>
+    
   )
 }
 

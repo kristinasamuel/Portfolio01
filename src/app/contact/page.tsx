@@ -8,7 +8,7 @@ import { Button } from "@/components/ui/button";
 import { FaAddressCard, FaEnvelope, FaPhone} from "react-icons/fa6";
 // export default ContactPage 
 function ContactPage() {
-  // jxs return 
+  // jsx return 
   return (
 // align item center ,give margin and padding page
     <div className="flex flex-col items-center justify-center mt-5 min-h-screen">
