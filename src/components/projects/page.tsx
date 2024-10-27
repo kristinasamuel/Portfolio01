@@ -3,8 +3,8 @@
 // import images from next
 import Image from "next/image";
 // create function Project export default
-export default function Project() {
-  // jxs return 
+export default function ProjectPage() {
+  // jsx return 
   return (
    <div className="flex flex-col items-center justify-center  ">
     {/* h1 main heading of this section give style color,and size */}

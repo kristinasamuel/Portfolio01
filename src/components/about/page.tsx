@@ -6,9 +6,9 @@ import { BiLogoTypescript } from "react-icons/bi";
 import { FaHtml5 } from "react-icons/fa6";
 import { IoLogoCss3 } from "react-icons/io5";
 // export default About function
-export default function About() {
+export default function AboutPage() {
   return (
-    // style to screen
+  
     <div className="min-h-screen md:p-4 p-6">
       {/* Main heading of the page h1 also give style ,color,and font  */}
       <h1 className="text-4xl font-bold text-center justify-center uppercase">

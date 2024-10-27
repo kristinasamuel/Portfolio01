@@ -41,9 +41,6 @@ function ContactPage() {
           <p className="flex items-center gap-2 text-black mt-2">
             <FaEnvelope className="h-6 w-6" /> Email: Karistina97@gmail.com
           </p>
-          <p className="flex items-center gap-2 text-black mt-2">
-            <FaPhone className="h-6 w-6" /> Phone: 0344-2462603
-          </p>
         </div>
       </div>
       {/* Thank You Message */}

@@ -1,12 +1,9 @@
+// create Navbar 
 "use client";
 import Link from "next/link";
-import React from "react";
-import { Fragment } from "react";
-
 export default function Navbar(){
- 
   return(
-    <>
+    
 <div className="h-10 bg-neutral-700">  
   <nav className="flex items-center justify-between">
     <span className="text-4xl font-extrabold text-white uppercase hover:text-red-600 mx-3">k</span>
@@ -15,7 +12,6 @@ export default function Navbar(){
       <li className="  hover:underline">
         <Link href={"/"}>Home</Link>
       </li>
-
       <li className=" hover:underline" >
         <Link href={"/about"}>About</Link>
       </li>
@@ -28,6 +24,6 @@ export default function Navbar(){
     </ul>
   </nav>
 </div>
-</> 
+
   )
 }

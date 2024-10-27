@@ -10,32 +10,32 @@ import { FaEnvelope, FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa6";
 import Link from "next/link";
 
-//  creating a export default function
+// a export default function
 export default function HeroSection() {
   return (
     <div className="flex flex-col md:flex-row items-center justify-center h-screen w-full">
       {/*  Set Profile Image on the Left side */}
       <div className="flex justify-center md:w-1/2 mb-8 md:mb-0">
         <Image
-          src="/images/profile2.jpg"
+          src="/images/profile.jpg"
           height={250}
           width={250}
           alt="My image"
-          className="rounded-full"
+          className="rounded-full border-black border-2"
         />
       </div>
       <div className="flex flex-col items-center md:items-start justify-center text-center md:text-left md:w-1/2">
-        {/* h1 introduction  */}
+        {/* h1 introduction ,My detail */}
         <h2 className=" text-4xl font-bold ">Hi, I'M KARISTINA</h2>
 
-        <h6 className=" text-3xl md:text-4xl  mt-4 font-bold text-gray-500 uppercase">
+        <h6 className=" text-3xl md:text-4xl  mt-4 font-bold text-teal-500 uppercase">
           {/* Typewriter Effect use to give style our text */}
            <Typewriter
             options={{
               strings: [
                 "Frontend Developer,",
                 "Web Designer,",
-                " Creative Coder,",
+                "Creative Coder,",
               ],
               autoStart: true,
               loop: true,
@@ -50,25 +50,23 @@ export default function HeroSection() {
         {/* here we use social media icons just click on it and serach my account  */}
         <div className="flex flex-row mt-5 ">
           {/* MY linkdin Account */}
-          <a
+          <Link
             href="https://www.linkedin.com/in/kristina-samuel-21a6942ba"
             target="_blank"
-            rel="noopener noreferrer"
           >
             <FaLinkedin className="mx-2 h-12 w-12 md:h-16 md:w-16 text-black transition-transform ease-in-out transform hover:scale-110  hover:text-gray-700 rounded-xl" />
-          </a>
+          </Link>
           {/*  MY GitHub  Account */}
-          <a
+          <Link
             href="https://github.com/kristinasamuel"
             target="_blank"
-            rel="noopener noreferrer"
           >
             <FaGithub className="mx-2 h-12 w-12 md:h-16 md:w-16 text-black  transition-transform ease-in-out transform hover:scale-110  hover:text-gray-700 rounded-xl" />
-          </a>
+          </Link>
           {/* Email Account */}
-          <a href="mailto:karistina97@gmail.com">
+          <Link href="mailto:karistina97@gmail.com">
             <FaEnvelope className="mx-2 h-12 w-12 md:h-16 md:w-16 text-black transition-transform ease-in-out transform hover:scale-110  hover:text-gray-700 rounded-xl" />
-          </a>
+          </Link>
         </div>
         {/* Creating Links just click on it and move to new page */}
         <div className="mt-6 ">
