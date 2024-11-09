@@ -1,13 +1,8 @@
-// create a project page
-"use client";
-// import images from next
 import Image from "next/image";
-// create function Project export default
 export default function ProjectPage() {
-  // jsx return 
   return (
    <div className="flex flex-col items-center justify-center  ">
-    {/* h1 main heading of this section give style color,and size */}
+    {/* h1  Mainheading*/}
       <h1 className="text-4xl font-bold mt-5 uppercase mb-5">Latest Projects</h1>
    {/* I mention all my latest project which i have comleted  */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 p-8 md:p-4  max-w-4xl">

@@ -1,7 +1,3 @@
-//  Hero page of my portfolio
-
-"use client"; // for client side rendering we use use client
-//  import Images from next.js images
 import Image from "next/image";
 //  Typewiter effect use for styleing text
 import Typewriter from "typewriter-effect";
@@ -10,7 +6,6 @@ import { FaEnvelope, FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa6";
 import Link from "next/link";
 
-// a export default function
 export default function HeroSection() {
   return (
     <div className="flex flex-col md:flex-row items-center justify-center h-screen w-full">
@@ -21,20 +16,21 @@ export default function HeroSection() {
           height={250}
           width={250}
           alt="My image"
-          className="rounded-full border-black border-2"
+          className="rounded-full "
         />
       </div>
       <div className="flex flex-col items-center md:items-start justify-center text-center md:text-left md:w-1/2">
-        {/* h1 introduction ,My detail */}
+        {/* h1 introduction  */}
         <h2 className=" text-4xl font-bold ">Hi, I'M KARISTINA</h2>
 
         <h6 className=" text-3xl md:text-4xl  mt-4 font-bold text-teal-500 uppercase">
-          {/* Typewriter Effect use to give style our text */}
+          {/* Typewriter Effect*/}
            <Typewriter
             options={{
               strings: [
                 "Frontend Developer,",
                 "Web Designer,",
+                "UI/UX designer",
                 "Creative Coder,",
               ],
               autoStart: true,
@@ -47,7 +43,6 @@ export default function HeroSection() {
                 intuitive, dynamic user interfaces. 
               </p>
              
-        {/* here we use social media icons just click on it and serach my account  */}
         <div className="flex flex-row mt-5 ">
           {/* MY linkdin Account */}
           <Link
@@ -70,12 +65,12 @@ export default function HeroSection() {
         </div>
         {/* Creating Links just click on it and move to new page */}
         <div className="mt-6 ">
-          {/* My Resume Page  */}
+          {/*Resume Page  */}
           <ul className="flex flex-row">
             <li>
           <Link
             href="/resume"
-            className="p-2 h-16 w-16  uppercase font-bold  bg-teal-400 hover:bg-teal-600  text-black rounded-xl"
+            className=" p-2 h-16 w-16  uppercase font-bold  bg-teal-400 hover:bg-teal-600  text-black rounded-xl"
           >
             resume
           </Link></li>

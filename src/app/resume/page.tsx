@@ -10,7 +10,7 @@ function ResumePage() {
       <section className="bg-white p-8 rounded-lg shadow-lg w-full max-w-2xl">
         <div className="flex flex-col">
           <h1 className="text-3xl font-bold mb-2"> Kristina</h1>
-          <p className="text-gray-600">• Web Developer</p>
+          <p className="text-gray-600">• Web Developer,UI/UX Designer</p>
           <p className="text-gray-600"> • Languages: Urdu , English</p>
           <p className="text-gray-600">• Email: karistina97@gmail.com</p>
           <p className="text-gray-600">• Location: Karachi, Pakistan</p>

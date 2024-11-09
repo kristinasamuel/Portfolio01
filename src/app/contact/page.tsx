@@ -1,21 +1,15 @@
-"usse client"
-// create a contact page
+// contact page
 // import Label ,Input ,Button from shadcn library 
 import { Label } from "@/components/ui/label";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 // import icons from react icon library
 import { FaAddressCard, FaEnvelope, FaPhone} from "react-icons/fa6";
-// export default ContactPage 
 function ContactPage() {
-  // jsx return 
   return (
-// align item center ,give margin and padding page
-    <div className="flex flex-col items-center justify-center mt-5 min-h-screen">
-      {/* H1 main heading of the page give style ,color and size */}
+    <div className="flex flex-col items-center justify-center mt-10 min-h-screen">
       <h1 className="font-bold text-center mb-5 text-4xl uppercase">Contact Me</h1>
-      
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-10 justify-center items-center p-10 md:p-2 md:max-w-4xl">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mt-10 justify-center items-center p-10 md:p-2 md:max-w-4xl">
         {/* Input Form styling */}
         <div className="bg-white p-4 border-solid border-2 rounded-lg shadow-md w-full">
           <form className="flex flex-col">
