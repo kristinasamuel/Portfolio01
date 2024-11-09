@@ -1,12 +1,9 @@
 "use client"
 // My Resume
-//  export default function Resume
 function ResumePage() {
-   
     return (
-    
     <div className="min-h-screen flex flex-col items-center p-10">
-      {/* Profile Section, give style color font and margi*/}
+      {/* Profile Section*/}
       <section className="bg-white p-8 rounded-lg shadow-lg w-full max-w-2xl">
         <div className="flex flex-col">
           <h1 className="text-3xl font-bold mb-2"> Kristina</h1>
@@ -17,7 +14,7 @@ function ResumePage() {
         </div>
       </section>
 
-      {/* Education Section,  give specific color,size,font */}
+      {/* Education Section,  give specific color,size,font*/}
       <section className="bg-white p-8 rounded-lg shadow-lg w-full max-w-2xl mt-8">
         <h2 className="text-3xl font-semibold mb-4">Education</h2>
         <p className="mb-2">
